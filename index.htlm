@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>GhostBrain Ultra (clean)</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <h1>GhostBrain Ultra</h1>
+
+    <div class="modes">
+      <button data-mode="prof">Prof de langues IA</button>
+      <button data-mode="business">Coach Business IA</button>
+      <button data-mode="motiv">Motivateur IA</button>
+      <button data-mode="securite">Expert Sécurité IA</button>
+    </div>
+
+    <form id="chat-form">
+      <input id="message" type="text" placeholder="Écris ton message…" required />
+      <button type="submit">Envoyer</button>
+    </form>
+
+    <div id="dialogue" class="dialogue"></div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
